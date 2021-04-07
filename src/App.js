@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import HelloWorldBtn from "./components/helloWorldBtn";
 
 function App() {
   const appName = "Hello World App";
@@ -18,14 +19,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         {title}
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <HelloWorldBtn />
       </header>
     </div>
   );
